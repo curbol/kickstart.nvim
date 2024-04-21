@@ -241,7 +241,8 @@ require('lazy').setup({
   -- "gc" to comment visual regions/lines
   { 'numToStr/Comment.nvim', opts = {} },
 
-  -- tmux navigation
+  -- tmux navigation integration
+  -- https://github.com/christoomey/vim-tmux-navigator?tab=readme-ov-file#lazynvim
   {
     'christoomey/vim-tmux-navigator',
     cmd = {
